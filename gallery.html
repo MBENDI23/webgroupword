@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | James Okello 2026 - Presidential Campaign Uganda</title>
+    <meta name="description" content="Explore photos from James Okello's campaign events across Uganda. See rallies, community meetings, project launches, and moments with supporters nationwide.">
+    <meta property="og:title" content="Campaign Photo Gallery - James Okello 2026">
+    <meta property="og:description" content="Browse photos from James Okello's presidential campaign activities including rallies, town halls, and community engagement events across Uganda.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <div class="brand-logo">JO</div>
+                    <span class="brand-text">James Okello 2026</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="vision.html" class="nav-link">Vision</a>
+                <a href="activities.html" class="nav-link">Activities</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Photo Gallery</h1>
+                <p>Capturing moments of hope, unity, and progress from our campaign journey across Uganda.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Filter -->
+        <section class="gallery-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="rallies">Rallies</button>
+                    <button class="filter-btn" data-filter="community">Community Events</button>
+                    <button class="filter-btn" data-filter="meetings">Town Halls</button>
+                    <button class="filter-btn" data-filter="projects">Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="photo-grid">
+                    <!-- Rally Photos -->
+                    <div class="gallery-item" data-category="rallies">
+                        <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Kampala Rally" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Kampala Rally</h3>
+                            <p>December 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="rallies">
+                        <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Gulu District Rally" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Gulu District Rally</h3>
+                            <p>November 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="rallies">
+                        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Mbarara Youth Rally" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Mbarara Youth Rally</h3>
+                            <p>November 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- Community Events -->
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Farmers Market Visit" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Farmers Market Visit</h3>
+                            <p>October 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Women's Group Meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Women's Group Meeting</h3>
+                            <p>October 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Local Business Visit" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Local Business Visit</h3>
+                            <p>September 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- Town Hall Meetings -->
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Entebbe Town Hall" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Entebbe Town Hall</h3>
+                            <p>November 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Fort Portal Meeting" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Fort Portal Meeting</h3>
+                            <p>October 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Jinja Community Forum" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Jinja Community Forum</h3>
+                            <p>September 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- Project Launches -->
+                    <div class="gallery-item" data-category="projects">
+                        <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="School Construction Launch" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>School Construction Launch</h3>
+                            <p>November 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="projects">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Healthcare Center Opening" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Healthcare Center Opening</h3>
+                            <p>October 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="projects">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Water Project Launch" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Water Project Launch</h3>
+                            <p>September 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- Additional Rally Photos -->
+                    <div class="gallery-item" data-category="rallies">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Lira Stadium Rally" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Lira Stadium Rally</h3>
+                            <p>December 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="rallies">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Masaka Rally" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Masaka Rally</h3>
+                            <p>November 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- More Community Events -->
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Youth Sports Event" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Youth Sports Event</h3>
+                            <p>August 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Cultural Festival" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Cultural Festival</h3>
+                            <p>August 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- Additional Projects -->
+                    <div class="gallery-item" data-category="projects">
+                        <img src="https://images.unsplash.com/photo-1581578949510-fa7315b0c249?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Road Construction" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Road Construction Project</h3>
+                            <p>July 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="projects">
+                        <img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Solar Panel Installation" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Solar Panel Installation</h3>
+                            <p>July 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="container">
+                <h2 class="section-title">Campaign Videos</h2>
+                
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Campaign Launch Video">
+                            <div class="play-button">▶️</div>
+                        </div>
+                        <h3>Campaign Launch Speech</h3>
+                        <p>Watch James Okello's inspiring campaign launch speech in Kampala.</p>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Education Policy Video">
+                            <div class="play-button">▶️</div>
+                        </div>
+                        <h3>Education for All Initiative</h3>
+                        <p>Learn about our comprehensive education reform plans for Uganda.</p>
+                    </div>
+
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Healthcare Vision Video">
+                            <div class="play-button">▶️</div>
+                        </div>
+                        <h3>Healthcare for Every Ugandan</h3>
+                        <p>Our vision for universal healthcare access across all districts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-link">
+                        <div class="brand-logo">JO</div>
+                        <span class="brand-text">James Okello 2026</span>
+                    </div>
+                    <p>Building a prosperous Uganda where every citizen has the opportunity to thrive.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📺</a>
+                        <a href="#" class="social-link">📸</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About James</a></li>
+                        <li><a href="vision.html">Vision & Manifesto</a></li>
+                        <li><a href="activities.html">Campaign Activities</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Get Involved</h3>
+                    <ul>
+                        <li><a href="contact.html">Volunteer</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="activities.html">Events</a></li>
+                        <li><a href="#">Share Campaign</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p>📍 Plot 45, Kampala Road<br>Kampala, Uganda<br>P.O. Box 1234</p>
+                        <p>📞 +256 414 123456</p>
+                        <p>✉️ info@jamesokello2026.ug</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 James Okello for Uganda 2026. All rights reserved. | Authorized by the Campaign Committee</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
